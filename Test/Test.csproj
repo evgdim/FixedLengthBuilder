@@ -51,9 +51,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FixedLengthBuilder\FixedLengthBuilder.csproj">
+    <ProjectReference Include="..\FixedLengthBuilder\FixedLength.csproj">
       <Project>{318bd389-2d88-44f1-8902-082d46f91e69}</Project>
-      <Name>FixedLengthBuilder</Name>
+      <Name>FixedLength</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

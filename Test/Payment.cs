@@ -11,5 +11,6 @@ namespace Test
         public string FromIban { get; set; }
         public string ToIban { get; set; }
         public decimal Amount { get; set; }
+        public DateTime Timestamp { get; set; }
     }
 }

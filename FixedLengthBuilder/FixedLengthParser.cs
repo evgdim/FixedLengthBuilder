@@ -54,7 +54,7 @@ namespace FixedLength
         }
         public FixedLengthParser<T> SetDateTime(Expression<Func<T, DateTime>> expression, int start, int length)
         {
-            string strValue = src.Substring(start, length);
+            string strValue = src.Substring(start, length).Trim();
             DateTime value = DateTime.ParseExact(strValue, DEFAULT_DATE_FORMAT, null);
             var member = expression.Body as MemberExpression;
             if (member != null && member.Member is PropertyInfo)

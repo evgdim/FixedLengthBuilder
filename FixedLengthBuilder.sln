@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FixedLengthBuilder", "FixedLengthBuilder\FixedLengthBuilder.csproj", "{318BD389-2D88-44F1-8902-082D46F91E69}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FixedLength", "FixedLengthBuilder\FixedLength.csproj", "{318BD389-2D88-44F1-8902-082D46F91E69}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{F45D6FB9-70B3-4304-B0C0-539E1C2F0EDB}"
 EndProject
